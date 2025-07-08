@@ -9,3 +9,5 @@ The project generates random email addresses with:
 - Randomly selected domain from a large domain list
 
 Unlike the earlier console version, this version provides a simple graphical window where you can generate emails by clicking a button.
+
+This version of GUI is pretty basic and not looking good it needs visual improvements

@@ -22,7 +22,7 @@ public class MailGenerator {
 
     public static void main(String[] args) {
             MailGenerator object = new MailGenerator();
-           object.firstPart();
+           object.firstPart();            //change here
            object.secondPart();
 
 

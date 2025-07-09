@@ -1,7 +1,6 @@
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import java.nio.charset.Charset;
 import java.util.Random;
 import javax.swing.*;
 
@@ -15,16 +14,15 @@ public class MailGenerator extends JFrame {
         setTitle("Mail Generator");
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setSize(500, 500);
-        setLayout(new FlowLayout());
+        setLayout(new BorderLayout());
 
         textField = new JTextField();
         textField.setEditable(false);           //email text field
         textField.setColumns(25);
-        add(textField);
+        add(textField, BorderLayout.NORTH);
 
         JButton button = new JButton("Generate Mail");
-        button.setLocation(500, 500);
-        add(button);
+        add(button, BorderLayout.SOUTH); // Button now at bottom center
 
         button.addActionListener(new ActionListener() {
             public void actionPerformed(ActionEvent e) {

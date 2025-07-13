@@ -1,24 +1,13 @@
-# Mail Generator (Java)
+# Mail Generator (Java - GUI Version)
 
-This is a simple Java project that generates random email addresses.
+This is an improved version of the previous **Mail Generator** project.  
+Now, the project includes a **Graphical User Interface (GUI)** built with Java Swing.
 
-## Features
-- Random username generation (currently random bytes)
-- Random selection from a large email domain list
-- Displays result in the console
+## About
+The project generates random email addresses with:
+- Random username (letters and numbers)
+- Randomly selected domain from a large domain list
 
-## Current Structure
-- The username is generated using random bytes (to be improved).
-- The domain is selected randomly from a predefined list of common email providers
+Unlike the earlier console version, this version provides a simple graphical window where you can generate emails by clicking a button.
 
-Future Plans
-
-    Improve username generation using letters and numbers instead of random bytes
-
-    Refactor the code for better readability
-
-    Add a graphical user interface (GUI) or convert the project into a simple web application
-
-    Allow saving generated emails to a file
-
-    Allow users to specify username length or format
+This version of GUI is pretty basic and not looking good it needs visual improvements
